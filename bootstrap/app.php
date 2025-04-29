@@ -11,7 +11,7 @@ use Dotenv\Dotenv;
 $dotenv = Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
 
-// Function to initialize the logger
+// Initialize the logger
 function initLogger(): Logger {
     // Get environment variables for environment setup
     $env = getenv('APP_ENV') ?: 'production';
@@ -74,7 +74,6 @@ function logWithContext(Logger $logger, string $level, string $message, array $c
 // Initialize logger
 $logger = initLogger();
 
-// Example usage of the logger: Log an INFO-level event with enriched data
 // Example usage of the logger: Log an INFO-level event with enriched data
 logWithContext($logger, 'INFO', 'User profile successfully updated', [
     'user_role' => 'admin',
