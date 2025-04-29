@@ -1,0 +1,133 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Operating System Files
+# ──────────────────────────────────────────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ──────────────────────────────────────────────────────────────────────────────
+# IDE / Editor
+# ──────────────────────────────────────────────────────────────────────────────
+# JetBrains (PhpStorm, IntelliJ, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+
+# VSCode
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim swap files
+*.swp
+
+# Emacs backup files
+*~
+
+# ──────────────────────────────────────────────────────────────────────────────
+# PHP / Composer
+# ──────────────────────────────────────────────────────────────────────────────
+/vendor/
+/composer.phar
+/composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+/phpunit.xml
+/phpunit.xml.dist
+
+# PHPCS/PHPMD/PHPMetrics caches
+.php_cs.cache
+.phpmetrics.cache
+
+# Symfony Flex
+/.symfony/cache/
+/.symfony/
+
+# Phinx
+phinxlog/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Configuration & Environment
+# ──────────────────────────────────────────────────────────────────────────────
+/.env
+/.env.*.local
+.env.local.php
+/.env.backup
+
+# bootstrap cache (if any)
+bootstrap/cache/*
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Application Storage & Logs
+# ──────────────────────────────────────────────────────────────────────────────
+/storage/
+/storage/logs/
+/storage/sentinel/
+/storage/framework/
+/storage/cache/
+/storage/temp/
+/public/hot
+/public/storage
+
+# Custom runtime files
+*.pid
+*.seed
+*.dump
+*.sqlite
+*.sqlite3
+
+# Ignore all log files
+*.log
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Node (if you have frontend assets)
+/node_modules/
+/bower_components/
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/pnpm-debug.log*
+/package-lock.json
+/pnpm-lock.yaml
+/yarn.lock
+/dist/
+/build/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Test & Coverage
+# ──────────────────────────────────────────────────────────────────────────────
+/coverage/
+/coverage.xml
+/tests/_output/
+/build/
+/reports/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# CI / Deployment
+# ──────────────────────────────────────────────────────────────────────────────
+/.env.staging
+.env.production
+.deployrc
+.serverless/
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Miscellaneous
+# ──────────────────────────────────────────────────────────────────────────────
+*.cache
+*.tmp
+*.bak
+*.old
+*.orig
+*.sw[px]
